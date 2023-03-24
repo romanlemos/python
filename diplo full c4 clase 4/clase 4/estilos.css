@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+</style>
+*{
+    margin: 1;
+    padding:0;
+}
+
+body {
+    front font-family: verdana, "Helvetica Neue", Helvetica, sans-serif;: 1em sans-serif;
+}
+
+html{
+    font-size: 9.5px;
+}
+
+
+.encabezado{
+    background-image: url(./img/descarga.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem;
+    height: 40vh ;
+}
+.azul { 
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.negro{
+    color: black;
+}
+.cuadrado{
+    background-color: darkgreen;
+    height: 150px;
+    width: 150px;;
+    padding: 2rem;
+    border: solid 5px black;
+    overflow: auto;
+   position: absolute;
+   top: 40px; 
+   left: 40px;
+
+
+
+}
+.menu {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+    }
+    li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 14px
+    }
+    .submenu {
+    position: absolute;
+    display: none;
+    }
+    .submenu {
+    display: block;
+    }
+    .submenu li:hover ul {
+    display:block;
+    }

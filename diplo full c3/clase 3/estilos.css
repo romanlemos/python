@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+</style>
+*{
+    margin: 1;
+    padding:0;
+}
+
+body {
+    front font-family: verdana, "Helvetica Neue", Helvetica, sans-serif;: 1em sans-serif;
+}
+
+html{
+    font-size: 9.5px;
+}
+
+
+.encabezado{
+    background-image: url(./img/descarga.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem;
+    height: 40vh ;
+}

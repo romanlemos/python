@@ -1,0 +1,34 @@
+.caja{
+    height: 150px;
+    width: 150px;
+}
+.rojo{
+    background-color: red;
+}
+.letra{
+    color: chartreuse;
+    text-align:justify;
+}
+
+.azul{
+    background-color: blue;
+    
+}
+
+.verde{
+    background-color: green;
+}
+
+.naranja{
+    background-color: orangered;
+}
+.rosa{
+    background-color: pink;
+}
+.violeta {
+    background-color: purple;
+    
+}
+.contenedor_padre{
+    display: flex;
+}
